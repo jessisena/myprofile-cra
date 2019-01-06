@@ -1,10 +1,12 @@
 import React from "react";
 import { Icon } from "semantic-ui-react";
+import * as URLS from "./urls";
 
 export const TEXT = {
   BACKGROUND: 
     <span><p>I am a Computer Engineer, working since 2013 as a member of Geostart, the <b>innovation group</b> of the Institut Cartogràfic i Geològic de Catalunya.</p>
-      <p>My work there includes the development of <b>prototypes and the research of new technologies</b>, as well as the design and <b>development of web applications</b> (front-end and back-end).<br/> *Some exemples of our work at <a href="http://betaportal.icgc.cat/" rel="noopener noreferrer" target="_blank">BETAPORTAL</a>. </p>
+      <p>My work there includes the development of <b>prototypes and the research of new technologies</b>, as well as the design and <b>development of web applications</b> (front-end and back-end).<br/> 
+        <br></br><Icon name="info circle"></Icon>Check some exemples of our work at <a href={URLS.BETAPORTAL} rel="noopener noreferrer" target="_blank">BETAPORTAL</a>. </p>
       <p>I have also been in charge of several <b>mobile application</b> development projects.</p>
       <p>In addition, as part of Geostart I have acquired a wide knowledge of geotechnologies, working as a <b>GIS developer</b></p>
       <p>In 2016 I finished a postgraduate course in <b>UX Design</b>, aiming to expand my overall vision of the whole development process of a technological product, and complementing my knowledge as a developer, giving it an extra value to the work I do in the projects in which I participate</p>
@@ -26,28 +28,20 @@ export const TEXT = {
   CATOFF: 
     <span>
       <p>I’ve fully developed Catalunya Offline, an <b>hybrid mobile app</b> available for Android and IOS, that allows people download the Catalan cartography in their devices and use it in offline mode. Some of the functionalities are: locate you on the map, save waypoints and tracks and add pictures and data to them, load files with external geographical data, and connect all this information with the Instamaps.cat platform.</p>
-      <p>Catalunya Offline has been developed with the <a href="https://ionicframework.com/" rel="noopener noreferrer" target="_blank">Ionic Framework</a> (and so, Cordova + Angular).</p>
-      <p>Initially it used <a href="http://leafletjs.com/" rel="noopener noreferrer" target="_blank">Leaflet.js</a> + <a href="https://github.com/tombatossals/angular-leaflet-directive" rel="noopener noreferrer" target="_blank">AngularLeaflet</a> for the map functionalities, but now, it’s been refactorized to use <a href="https://www.mapbox.com/mapbox-gl-js/api/" rel="noopener noreferrer" target="_blank">MapboxGL.js</a> + WebGL technology, to take advantage of the <a href="https://www.mapbox.com/vector-tiles/" target="_blank">Vector Tiles</a> system.</p>
-      <p>For this purpose, I have developed some interesting new features for the library, in order to make possible to use it in an <b>offline mode</b>: basically, I have added a new VectorTileOffline source and a new RasterOffline source too. Take a look <a href="https://github.com/jessisena/mapbox-gl-js/tree/master/src/source" rel="noopener noreferrer" target="_blank">HERE</a>.</p>      
+      <p>Catalunya Offline has been developed with the <a href={URLS.IONIC} rel="noopener noreferrer" target="_blank">Ionic Framework</a> (and so, Cordova + Angular).</p>
+      <p>Initially it used <a href={URLS.LEAFLET} rel="noopener noreferrer" target="_blank">Leaflet.js</a> + <a href={URLS.ANGULAR_LEAFLET} rel="noopener noreferrer" target="_blank">AngularLeaflet</a> for the map functionalities, but now, it’s been refactorized to use <a href={URLS.MAPBOXGLJS} rel="noopener noreferrer" target="_blank">MapboxGL.js</a> + WebGL technology, to take advantage of the <a href={URLS.MAPBOX_VECTOR_TILES} rel="noopener noreferrer" target="_blank">Vector Tiles</a> system.</p>
+      <p>For this purpose, I have developed some interesting new features for the library, in order to make possible to use it in an <b>offline mode</b>: basically, I have added a new VectorTileOffline source and a new RasterOffline source too. Take a look <a href={URLS.MAPBOXGLJS_JESSISENA} rel="noopener noreferrer" target="_blank">HERE</a>.</p>      
     </span>,
 
-  CERCAFONTS:
-    <span>
-      <p>I’ve fully developed Cercafonts, an <b>hybrid mobile app</b> available for Android and IOS, that allows people download the Catalan cartography in their devices and use it in offline mode. Some of the functionalities are: locate you on the map, save waypoints and tracks and add pictures and data to them, load files with external geographical data, and connect all this information with the Instamaps.cat platform.</p>
-      <p>Catalunya Offline has been developed with the <a href="https://ionicframework.com/" rel="noopener noreferrer" target="_blank">Ionic Framework</a> (and so, Cordova + Angular).</p>
-      <p>Initially it used <a href="http://leafletjs.com/" rel="noopener noreferrer" target="_blank">Leaflet.js</a> + <a href="https://github.com/tombatossals/angular-leaflet-directive" rel="noopener noreferrer" target="_blank">AngularLeaflet</a> for the map functionalities, but now, it’s been refactorized to use <a href="https://www.mapbox.com/mapbox-gl-js/api/" rel="noopener noreferrer" target="_blank">MapboxGL.js</a> + WebGL technology, to take advantage of the <a href="https://www.mapbox.com/vector-tiles/" target="_blank">Vector Tiles</a> system.</p>
-      <p>For this purpose, I have developed some interesting new features for the library, in order to make possible to use it in an <b>offline mode</b>: basically, I have added a new VectorTileOffline source and a new RasterOffline source too. Take a look <a href="https://github.com/jessisena/mapbox-gl-js/tree/master/src/source" rel="noopener noreferrer" target="_blank">HERE</a>.</p>      
-    </span>
-  ,
   CANHEMON:
     <span>
-      <p>I've worked in the Canhemon Tree Checker project, for the <a href="https://ec.europa.eu/jrc/en" rel="noopener noreferrer" target="_blank">Joint Research Centre (European Comission)</a>.</p>
+      <p>I've worked in the Canhemon Tree Checker project, for the <a href={URLS.JRC} rel="noopener noreferrer" target="_blank">Joint Research Centre (European Comission)</a>.</p>
                     
       <p>I fully developed the <b>Canhemon mobile application</b>. The main goal of the app is to allow users to collect information about trees directly on the territory, to be stored in a central database. The application also works completely offline, downloading previously the geographical area where the users will work, and synchronizing the data automatically with the server when it detects internet connection.</p>
                     
-      <p>Canhemon App has been developed with <a href="https://facebook.github.io/react-native/" rel="noopener noreferrer" target="_blank">React Native</a> + <a href="https://redux.js.org/docs/introduction/" rel="noopener noreferrer" target="_blank">Redux</a>, and it uses <a href="http://leafletjs.com/" target="_blank">Leaflet.js</a> for the map functionalities.</p>
+      <p>Canhemon App has been developed with <a href={URLS.REACT_NATIVE} rel="noopener noreferrer" target="_blank">React Native</a> + <a href={URLS.REDUX} rel="noopener noreferrer" target="_blank">Redux</a>, and it uses <a href={URLS.LEAFLET} rel="noopener noreferrer" target="_blank">Leaflet.js</a> for the map functionalities.</p>
                     
-      <p>The full source code of the app is <a href="https://github.com/jessisena/TreeCheckerApp/tree/master/app/treeChecker" rel="noopener noreferrer" target="_blank">HERE</a>.</p>
+      <p>The full source code of the app is <a href={URLS.CANHEMON_APP} rel="noopener noreferrer" target="_blank">HERE</a>.</p>
                                       
     </span>
   ,
@@ -88,8 +82,8 @@ export const TEXT = {
   GEOCHICAS04: 
               <div>
                 <p>The project is completely open and collaborative, and we are in process of making it grow:</p>
-                <p><Icon name="check" /> Check the Github repositories of the project <a href="https://github.com/geochicasosm"  rel="noopener noreferrer" target="_blank">HERE</a></p>
-                <p><Icon name="check" /> Read a bit more extended technical explanation about the project here: <a href="https://medium.com/@jessisena/lascallesdelasmujeres-thestreetsofwomen-meets-mapbox-mapmadness18-9a606c0fa3b6"  rel="noopener noreferrer" target="_blank">#LasCallesDeLasMujeres (TheStreetsOfWomen) meets Mapbox #mapmadness18</a></p>
+                <p><Icon name="check" /> Check the Github repositories of the project <a href={URLS.GEOCHICAS_GITHUB}  rel="noopener noreferrer" target="_blank">HERE</a></p>
+                <p><Icon name="check" /> Read a bit more extended technical explanation about the project here: <a href={URLS.MEDIUM_LCDLM}  rel="noopener noreferrer" target="_blank">#LasCallesDeLasMujeres (TheStreetsOfWomen) meets Mapbox #mapmadness18</a></p>
               </div>,  
   OSGEO: 
     <div>
@@ -101,29 +95,29 @@ export const TEXT = {
     intro: <p>These are the talks/workshops in which I have participated lately:</p>,
     talk00: {
       header: "#LasCallesDeLasMujeres and GeoChicas",
-      description: <p><a href="https://www.udemy.com/react-native-advanced/" rel="noopener noreferrer" target="_blank">Smart City Expo 2018</a>, (November 2018), collaborating in the panel <b>Digital platforms and gender perspective</b></p>,
-      buttonUrl: "https://drive.google.com/file/d/1N-uww4tunWHx8U4BG_A1QkrbOtX2umWj/view?usp=sharing",
+      description: <p><a href={URLS.SMARTCITYEXPO_PROGRAM} rel="noopener noreferrer" target="_blank">Smart City Expo 2018</a>, collaborating in the panel <i>Digital platforms and gender perspective</i>, (November 2018)</p>,
+      buttonUrl: URLS.SLIDES_GEOCHICAS01,
       buttonName: "SLIDES" 
     },
     talk01: {
       header: "Ús de dades obertes a les apps",
-      description: <p><a href="https://dadesxdones.iniciativabarcelonaopendata.cat/programa_hackato/" rel="noopener noreferrer" target="_blank">Hackató DadesXDones</a> (June 2018). </p>,
-      buttonUrl: "https://drive.google.com/file/d/1htSQ4qmoABWYXSZkuuDdQALdrMd5rs0h/view?usp=sharing",
+      description: <p><a href={URLS.HACKATO_DADESXDONES} rel="noopener noreferrer" target="_blank">Hackató DadesXDones</a> (June 2018). </p>,
+      buttonUrl: URLS.SLIDES_DADESXDONES,
       buttonName: "SLIDES"      
     },
     talk02: {
       header: "Technical workshop about #LasCallesDeLasMujeres",
       description: <p><b>Technical workshop about #LasCallesDeLasMujeres</b> (May 2018). </p>,
-      buttonUrl: "https://www.youtube.com/watch?v=i5s6JoG4cCo",
+      buttonUrl: URLS.TUTORIAL_LCDLM,
       buttonName: "VIDEO"      
     },
     talk03: {
       header: "Workshop about hiking tools and services",
-      description: <p><a href="http://aetalaia.cat/wp-content/uploads/2018/10/20181108_SESSI%C3%93-ICGC.pdf" rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
+      description: <p><a href={URLS.WORKSHOP_TALAIA2018} rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
     },
     talk04: {
       header: "Workshop about apps and tools of ICGC",
-      description: <p><a href="http://aetalaia.cat/wp-content/uploads/2018/10/20181108_SESSI%C3%93-ICGC.pdf" rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
+      description: <p><a href={URLS.WORKSHOP_TALAIA2017} rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
     }   
   },
 
@@ -147,21 +141,21 @@ export const TEXT = {
     title: "Some of my latest courses",
     text: 
         <span>
-          <p><a href="https://www.udemy.com/the-complete-react-native-and-redux-course" target="_blank">The Complete React Native and Redux Course</a> by Stephen Grider.</p>
-          <p><a href="https://www.udemy.com/top-javascript-interview-questions-and-answers/" target="_blank">Advanced JavaScript</a> by Asim Hussain.</p>
-          <p><a href="https://www.udemy.com/es6-bootcamp-next-generation-javascript/" target="_blank">Accelerated ES6 JavaScript Training</a> by Maximilian Schwarzmüller.</p>
-          <p><a href="" target="_blank">The Complete React Web App Developer Course</a> by Andrew Mead.</p>
-          <p><a href="https://www.udemy.com/learn-gulp/" target="_blank">Automate Web Development With Gulp JS</a> by Andrew Mead.</p>
-          <p><a href="https://www.udemy.com/learn-angularjs/" target="_blank">Learn and Understand AngularJS</a> by Anthony Alicea.</p>
+          <p><a href="https://www.udemy.com/the-complete-react-native-and-redux-course" rel="noopener noreferrer" target="_blank">The Complete React Native and Redux Course</a> by Stephen Grider.</p>
+          <p><a href="https://www.udemy.com/top-javascript-interview-questions-and-answers/" rel="noopener noreferrer" target="_blank">Advanced JavaScript</a> by Asim Hussain.</p>
+          <p><a href="https://www.udemy.com/es6-bootcamp-next-generation-javascript/" rel="noopener noreferrer" target="_blank">Accelerated ES6 JavaScript Training</a> by Maximilian Schwarzmüller.</p>
+          <p><a href="" rel="noopener noreferrer" target="_blank">The Complete React Web App Developer Course</a> by Andrew Mead.</p>
+          <p><a href="https://www.udemy.com/learn-gulp/" rel="noopener noreferrer" target="_blank">Automate Web Development With Gulp JS</a> by Andrew Mead.</p>
+          <p><a href="https://www.udemy.com/learn-angularjs/" rel="noopener noreferrer" target="_blank">Learn and Understand AngularJS</a> by Anthony Alicea.</p>
         </span>
   },
   ROADMAP: {
     title: "RoadMap: what's next?",
     text: 
           <span>
-            <p> Become a React-Native "master". I'll start by doing this course: <a href="https://www.udemy.com/react-native-advanced/" target="_blank">React Native: Advanced Concepts</a> by Stephen Grider.</p>
-            <p>Improve my programming methodology reading the already "classical" book <a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882" target="_blank">Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)</a></p>
-            <p>To Level Up and become a better front-end developer (in all possible ways), following this awesome  <a href="https://hackernoon.com/a-120-days-plan-to-become-a-better-developer-120daysbetterdev-4c3bbbdf31ee" target="_blank">120 days programme</a>, by Léna Faure.</p>
+            <p> Become a React-Native "master". I'll start by doing this course: <a href="https://www.udemy.com/react-native-advanced/" rel="noopener noreferrer" target="_blank">React Native: Advanced Concepts</a> by Stephen Grider.</p>
+            <p>Improve my programming methodology reading the already "classical" book <a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882" rel="noopener noreferrer" target="_blank">Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin)</a></p>
+            <p>To Level Up and become a better front-end developer (in all possible ways), following this awesome  <a href="https://hackernoon.com/a-120-days-plan-to-become-a-better-developer-120daysbetterdev-4c3bbbdf31ee" rel="noopener noreferrer" target="_blank">120 days programme</a>, by Léna Faure.</p>
           </span>
   },    
 

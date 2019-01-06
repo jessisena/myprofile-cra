@@ -4,7 +4,9 @@ import BackgroundPattern from "../BackgroundPattern/BackgroundPattern";
 import RowPictureItem from "../RowPictureItem/RowPictureItem";
 import TalkListItem from "../TalkListItem/TalkListItem";
 import AnimatedButton from "../AnimatedButton/AnimatedButton";
-import * as CONSTANTS from "../../resources/constants";
+//import LazyImage from "../LazyImage/LazyImage";
+
+import * as URLS from "../../resources/urls";
 import { TEXT } from "../../resources/text";
 import IMAGES from "../../resources/images"; 
 
@@ -39,12 +41,12 @@ export default class Content extends React.PureComponent {
         <p className={styles.contentItemTitle}>MY WORK</p>
 
         <Grid centered stackable>
-          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.instamaps} text={TEXT.INSTAMAPS} buttonText="Visit Instamaps!" buttonUrl={CONSTANTS.URL_INSTAMAPS}></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.catoffline} text={TEXT.CATOFF} buttonText="Read more" buttonUrl={CONSTANTS.URL_CATOFF} reversed="computer"></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern3" imgSrc={IMAGES.canhemon} text={TEXT.CANHEMON} buttonText="Read more" buttonUrl={CONSTANTS.URL_CANHEMON}></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern4" imgSrc={IMAGES.mapicc} text={TEXT.MAPICC} buttonText="Read more" buttonUrl={CONSTANTS.URL_MAPICC} reversed="computer"></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.ulldeltemps} text={TEXT.ULLDELTEMPS} buttonText="Read more" buttonUrl={CONSTANTS.URL_ULLDELTEMPS}></RowPictureItem>   
-          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.onsoc} text={TEXT.ONSOC} buttonText="Read more" buttonUrl={CONSTANTS.URL_ONSOC} reversed="computer"></RowPictureItem>   
+          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.instamaps} text={TEXT.INSTAMAPS} buttonText="Visit Instamaps!" buttonUrl={URLS.URL_INSTAMAPS}></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.catoffline} text={TEXT.CATOFF} buttonText="Read more" buttonUrl={URLS.URL_CATOFF} reversed="computer"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern3" imgSrc={IMAGES.canhemon} text={TEXT.CANHEMON} buttonText="Read more" buttonUrl={URLS.URL_CANHEMON}></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern4" imgSrc={IMAGES.mapicc} text={TEXT.MAPICC} buttonText="Read more" buttonUrl={URLS.URL_MAPICC} reversed="computer"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.ulldeltemps} text={TEXT.ULLDELTEMPS} buttonText="Read more" buttonUrl={URLS.URL_ULLDELTEMPS}></RowPictureItem>   
+          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.onsoc} text={TEXT.ONSOC} buttonText="Read more" buttonUrl={URLS.URL_ONSOC} reversed="computer"></RowPictureItem>   
         </Grid>        
       </div>
     );    
@@ -124,7 +126,7 @@ export default class Content extends React.PureComponent {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-        <Container textAlign="center" fluid><AnimatedButton buttonText="Visit the project" buttonUrl={CONSTANTS.URL_LCDLM}></AnimatedButton></Container>
+        <Container textAlign="center" fluid><AnimatedButton buttonText="Visit the project" buttonUrl={URLS.URL_LCDLM}></AnimatedButton></Container>
         <Divider hidden></Divider>
 
         <Grid centered padded stackable>
@@ -147,7 +149,7 @@ export default class Content extends React.PureComponent {
             </Grid.Column>
             <Grid.Column textAlign="justified">
               {TEXT.OSGEO}
-              <AnimatedButton buttonText="Visit Advocate Page" buttonUrl={CONSTANTS.URL_OSGEO}></AnimatedButton>
+              <AnimatedButton buttonText="Visit Advocate Page" buttonUrl={URLS.URL_OSGEO}></AnimatedButton>
             </Grid.Column>
           </Grid.Row>          
         </Grid>

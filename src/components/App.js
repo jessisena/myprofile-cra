@@ -3,7 +3,7 @@ import { Sticky, Icon } from "semantic-ui-react";
 import NavBar from "./NavBar/NavBar";
 import Content from "./Content/Content";
 import styles from "./App.module.css";
-import * as CONSTANTS from "../resources/constants";
+import * as URLS from "../resources/urls";
 
 import "typeface-open-sans";
 import "typeface-open-sans-condensed";
@@ -41,10 +41,10 @@ class App extends PureComponent {
       <div className={styles.footer}>
         <h2 className={styles.title}>Contact</h2>
         <div>          
-          <p><Icon name="envelope" />  <a href={CONSTANTS.MAILTO_JESSISENA}>jessisena@gmail.com</a></p>
-          <p><Icon name="envelope" />  <a href={CONSTANTS.URL_LINKEDIN} rel="noopener noreferrer" target="_blank">www.linkedin.com/jessicasenag</a></p>
-          <p><Icon name="envelope" />  <a href={CONSTANTS.URL_GITHUB} rel="noopener noreferrer" target="_blank">github.com/jessisena</a></p>
-          <p><Icon name="download" />  <a href={CONSTANTS.URL_CV} rel="noopener noreferrer" target="_blank">Curriculum in PDF</a></p>
+          <p><Icon name="envelope" />  <a href={URLS.MAILTO_JESSISENA}>jessisena@gmail.com</a></p>
+          <p><Icon name="envelope" />  <a href={URLS.URL_LINKEDIN} rel="noopener noreferrer" target="_blank">www.linkedin.com/jessicasenag</a></p>
+          <p><Icon name="envelope" />  <a href={URLS.URL_GITHUB} rel="noopener noreferrer" target="_blank">github.com/jessisena</a></p>
+          <p><Icon name="download" />  <a href={URLS.URL_CV} rel="noopener noreferrer" target="_blank">Curriculum in PDF</a></p>
         </div>        
       </div>         
     );
