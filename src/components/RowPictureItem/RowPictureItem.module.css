@@ -1,0 +1,37 @@
+.text {
+  font-family: var(--primary-font-family) !important;
+}
+
+.pattern1{
+  background: linear-gradient(to bottom left, #ebebeb 66%, #fff 50%);
+}
+
+.pattern2{
+  background: linear-gradient(to top right, #ebebeb 29%, #fff 20%);
+}
+
+.pattern3{
+  background: linear-gradient(to bottom left, #ebebeb 75%, #fff 50%);
+}
+
+.pattern4{
+  background: linear-gradient(to top left, #ebebeb 75%, #fff 50%);
+}
+
+.pattern1, .pattern2, .pattern3, .pattern4 {
+  padding: 2vh 25vh !important;
+  margin-top: -1px;
+}
+
+
+@media (max-width: 1600px) {
+  .pattern1, .pattern2, .pattern3, .pattern4 {
+    padding: 2vh 15vh !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .pattern1, .pattern2, .pattern3, .pattern4 {
+    padding: 2vh 2vh !important;
+  }
+}

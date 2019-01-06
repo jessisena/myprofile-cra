@@ -1,0 +1,45 @@
+.myHeader{
+	background: linear-gradient(var(--primary-color), var(--secondary-color)) !important;
+  color: white; /*var(--primary-white);*/
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .myHeader, .footer {
+      padding: 3rem 2rem;
+  }
+}
+
+.title{
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: var(--secondary-font-family) !important;
+}
+
+.subtitle{
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: var(--primary-font-family) !important;
+}
+
+.footer{
+  text-align: center;
+  background: linear-gradient(var(--secondary-color), var(--primary-color)) !important;
+  color: white !important; /*var(--primary-white);*/
+  padding: 2rem 1rem;
+  font-family: var(--primary-font-family) !important;
+}
+
+.footer a {
+  color: white !important;
+}
+.footer a:hover {
+  color: var(--contrast-color) !important;
+}
+
+.height1000{
+  height: 5000px;
+}

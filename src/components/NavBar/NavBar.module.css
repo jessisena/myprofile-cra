@@ -1,0 +1,20 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+h3 {font-family: var(--secondary-font-family) !important;}
+
+.itemNavbar {
+  padding: 1rem 0.5rem;
+  color: white;
+}
+.itemNavbar:hover {
+  font-weight: bold;
+  color: var(--contrast-color);
+  cursor: pointer;
+}

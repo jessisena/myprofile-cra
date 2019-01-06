@@ -1,0 +1,56 @@
+.contentItemTitle {
+  display: block;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--secondary-font-family) !important;
+}
+
+.contentItemBackground {
+  padding: 2rem;
+  font-family: var(--primary-font-family) !important;
+}
+
+
+.segmentTalksHeader {
+  color: white;
+  font-weight: bold;
+  background-color: var(--primary-color) !important;
+}
+
+.segmentTalksPictures {
+  /* background-color: var(--primary-white) !important; */
+}
+
+
+.mainContentColumn {
+  padding: 4rem 25vh !important;
+  text-align: justify;
+  font-family: var(--primary-font-family) !important;
+}
+.segmentTalks {
+  margin: 5vh 25vh;
+}
+
+
+@media (max-width: 1600px) {
+
+  .mainContentColumn {
+    padding: 2vh 5vh;
+  }
+  
+  .segmentTalks {
+    margin: 5vh 8vh;    
+  }  
+}
+
+@media (max-width: 1300px) {
+  .mainContentColumn {
+    padding: 4vh !important;
+  }
+  .segmentTalks {
+    margin: 2vh;
+  }
+}
