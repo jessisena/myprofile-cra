@@ -22,7 +22,7 @@ export default class Content extends React.PureComponent {
         <p className={styles.contentItemTitle}>MY BACKGROUND</p>
         <Grid centered stackable>
           <Grid.Column verticalAlign="middle" width={6}>
-            <Image rounded bordered centered size="medium" src={IMAGES.me}/>
+            <Image rounded bordered centered size="medium" src={IMAGES.me_medium} srcSet={`${IMAGES.me_small} 450w, ${IMAGES.me_small_2x} 900w, ${IMAGES.me_medium_2x} 1500w`} ></Image>
           </Grid.Column>
           <Grid.Column textAlign="justified" width={10}>
             {TEXT.BACKGROUND}
@@ -41,12 +41,12 @@ export default class Content extends React.PureComponent {
         <p className={styles.contentItemTitle}>MY WORK</p>
 
         <Grid centered stackable>
-          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.instamaps} text={TEXT.INSTAMAPS} buttonText="Visit Instamaps!" buttonUrl={URLS.URL_INSTAMAPS}></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.catoffline} text={TEXT.CATOFF} buttonText="Read more" buttonUrl={URLS.URL_CATOFF} reversed="computer"></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern3" imgSrc={IMAGES.canhemon} text={TEXT.CANHEMON} buttonText="Read more" buttonUrl={URLS.URL_CANHEMON}></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern4" imgSrc={IMAGES.mapicc} text={TEXT.MAPICC} buttonText="Read more" buttonUrl={URLS.URL_MAPICC} reversed="computer"></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.ulldeltemps} text={TEXT.ULLDELTEMPS} buttonText="Read more" buttonUrl={URLS.URL_ULLDELTEMPS}></RowPictureItem>   
-          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.onsoc} text={TEXT.ONSOC} buttonText="Read more" buttonUrl={URLS.URL_ONSOC} reversed="computer"></RowPictureItem>   
+          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.instamaps_medium} text={TEXT.INSTAMAPS} buttonText="Visit Instamaps!" buttonUrl={URLS.URL_INSTAMAPS}></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.catoffline_medium} text={TEXT.CATOFF} buttonText="Read more" buttonUrl={URLS.URL_CATOFF} reversed="computer"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern3" imgSrc={IMAGES.canhemon_medium} text={TEXT.CANHEMON} buttonText="Read more" buttonUrl={URLS.URL_CANHEMON}></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern4" imgSrc={IMAGES.mapicc_medium} text={TEXT.MAPICC} buttonText="Read more" buttonUrl={URLS.URL_MAPICC} reversed="computer"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.ulldeltemps_medium} text={TEXT.ULLDELTEMPS} buttonText="Read more" buttonUrl={URLS.URL_ULLDELTEMPS}></RowPictureItem>   
+          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.onsoc_medium} text={TEXT.ONSOC} buttonText="Read more" buttonUrl={URLS.URL_ONSOC} reversed="computer"></RowPictureItem>   
         </Grid>        
       </div>
     );    
@@ -100,7 +100,7 @@ export default class Content extends React.PureComponent {
         <Grid centered padded stackable>        
           <Grid.Row columns={2} >
             <Grid.Column >
-              <Image centered size="medium" src={IMAGES.logo_geochicas_black} />
+              <Image centered size="medium" src={IMAGES.logo_geochicas_black_medium} />
             </Grid.Column>
             <Grid.Column textAlign="justified">
               {TEXT.GEOCHICAS01}
@@ -111,7 +111,7 @@ export default class Content extends React.PureComponent {
         <Divider hidden></Divider>
 
         <Container fluid>
-          <Image centered size="massive" src={IMAGES.banner_lcdlm2} />
+          <Image centered size="massive" src={IMAGES.banner_lcdlm2_medium} />
         </Container>
         <Divider hidden></Divider>
         
@@ -132,10 +132,10 @@ export default class Content extends React.PureComponent {
         <Grid centered padded stackable>
           <Grid.Row textAlign="center" columns={2}>
             <Grid.Column>
-              <Image centered bordered size="big" src={IMAGES.lascalles01} />
+              <Image centered bordered size="big" src={IMAGES.lascalles01_medium} />
             </Grid.Column>
             <Grid.Column>
-              <Image centered bordered size="big" src={IMAGES.lascalles02} />
+              <Image centered bordered size="big" src={IMAGES.lascalles02_medium} />
             </Grid.Column>            
           </Grid.Row>          
         </Grid>        
@@ -145,7 +145,7 @@ export default class Content extends React.PureComponent {
         <Grid centered padded stackable>
           <Grid.Row columns={2} >
             <Grid.Column >
-              <Image centered size="medium" src={IMAGES.logoosgeo} />
+              <Image centered size="medium" src={IMAGES.logoosgeo_medium} />
             </Grid.Column>
             <Grid.Column textAlign="justified">
               {TEXT.OSGEO}
@@ -167,8 +167,8 @@ export default class Content extends React.PureComponent {
           <Segment className={styles.segmentTalksPictures} attached='bottom'>
             <Grid centered stackable padded >
               <Grid.Row columns={2}>
-                <Grid.Column width={8}><Image centered rounded size="small" src={IMAGES.talk00} /></Grid.Column>
-                <Grid.Column width={8}><Image centered rounded size="small" src={IMAGES.talk04} /></Grid.Column>
+                <Grid.Column width={8}><Image centered rounded size="small" src={IMAGES.talk00_medium} /></Grid.Column>
+                <Grid.Column width={8}><Image centered rounded size="small" src={IMAGES.talk04_medium} /></Grid.Column>
               </Grid.Row>
             </Grid>     
           </Segment>
