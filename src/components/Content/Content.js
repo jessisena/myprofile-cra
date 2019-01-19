@@ -22,7 +22,7 @@ export default class Content extends React.PureComponent {
         <p className={styles.contentItemTitle}>MY BACKGROUND</p>
         <Grid centered stackable>
           <Grid.Column verticalAlign="middle" width={6}>
-            <Image rounded bordered centered size="medium" src={IMAGES.me_medium} srcSet={`${IMAGES.me_small} 450w, ${IMAGES.me_small_2x} 900w, ${IMAGES.me_medium_2x} 1500w`} ></Image>
+            <Image alt="My picture profile" rounded bordered centered size="medium" src={IMAGES.me_medium} srcSet={`${IMAGES.me_small} 450w, ${IMAGES.me_small_2x} 900w, ${IMAGES.me_medium_2x} 1500w`} ></Image>
           </Grid.Column>
           <Grid.Column textAlign="justified" width={10}>
             {TEXT.BACKGROUND}
@@ -100,7 +100,7 @@ export default class Content extends React.PureComponent {
         <Grid centered padded stackable>        
           <Grid.Row columns={2} >
             <Grid.Column >
-              <Image centered size="medium" src={IMAGES.logo_geochicas_black_medium} />
+              <Image alt="logo geochicas " centered size="medium" src={IMAGES.logo_geochicas_black_medium} srcSet={`${IMAGES.logo_geochicas_black_small} 450w, ${IMAGES.logo_geochicas_black_small_2x} 900w, ${IMAGES.logo_geochicas_black_medium_2x} 1500w`} />
             </Grid.Column>
             <Grid.Column textAlign="justified">
               {TEXT.GEOCHICAS01}
@@ -111,7 +111,7 @@ export default class Content extends React.PureComponent {
         <Divider hidden></Divider>
 
         <Container fluid>
-          <Image centered size="massive" src={IMAGES.banner_lcdlm2_medium} />
+          <Image alt="banner LCDLM" centered size="massive" src={IMAGES.banner_lcdlm2_medium} srcSet={`${IMAGES.banner_lcdlm2_small} 450w, ${IMAGES.banner_lcdlm2_small_2x} 900w, ${IMAGES.banner_lcdlm2_medium_2x} 1500w`}/>
         </Container>
         <Divider hidden></Divider>
         
@@ -132,10 +132,10 @@ export default class Content extends React.PureComponent {
         <Grid centered padded stackable>
           <Grid.Row textAlign="center" columns={2}>
             <Grid.Column>
-              <Image centered bordered size="big" src={IMAGES.lascalles01_medium} />
+              <Image alt="map image 01" centered bordered size="big" src={IMAGES.lascalles01_medium} srcSet={`${IMAGES.lascalles01_small} 450w, ${IMAGES.lascalles01_small_2x} 900w, ${IMAGES.lascalles01_medium_2x} 1500w`}/>
             </Grid.Column>
             <Grid.Column>
-              <Image centered bordered size="big" src={IMAGES.lascalles02_medium} />
+              <Image alt="map image 02" centered bordered size="big" src={IMAGES.lascalles02_medium} srcSet={`${IMAGES.lascalles02_small} 450w, ${IMAGES.lascalles02_small_2x} 900w, ${IMAGES.lascalles02_medium_2x} 1500w`}/>
             </Grid.Column>            
           </Grid.Row>          
         </Grid>        
@@ -145,7 +145,7 @@ export default class Content extends React.PureComponent {
         <Grid centered padded stackable>
           <Grid.Row columns={2} >
             <Grid.Column >
-              <Image centered size="medium" src={IMAGES.logoosgeo_medium} />
+              <Image alt="logo OSGEO" centered size="medium" src={IMAGES.logoosgeo_medium} srcSet={`${IMAGES.logoosgeo_small} 450w, ${IMAGES.logoosgeo_small_2x} 900w, ${IMAGES.logoosgeo_medium_2x} 1500w`}/>
             </Grid.Column>
             <Grid.Column textAlign="justified">
               {TEXT.OSGEO}
@@ -167,8 +167,8 @@ export default class Content extends React.PureComponent {
           <Segment className={styles.segmentTalksPictures} attached='bottom'>
             <Grid centered stackable padded >
               <Grid.Row columns={2}>
-                <Grid.Column width={8}><Image centered rounded size="small" src={IMAGES.talk00_medium} /></Grid.Column>
-                <Grid.Column width={8}><Image centered rounded size="small" src={IMAGES.talk04_medium} /></Grid.Column>
+                <Grid.Column width={8}><Image alt="Talk 00" centered rounded size="small" src={IMAGES.talk00_small} srcSet={`${IMAGES.talk00_medium} 750w, ${IMAGES.talk00_small_2x} 900w, ${IMAGES.talk00_medium_2x} 1500w`}/></Grid.Column>
+                <Grid.Column width={8}><Image alt="Talk 04" centered rounded size="small" src={IMAGES.talk04_small} srcSet={`${IMAGES.talk04_medium} 750w, ${IMAGES.talk04_small_2x} 900w, ${IMAGES.talk04_medium_2x} 1500w`}/></Grid.Column>
               </Grid.Row>
             </Grid>     
           </Segment>
