@@ -1,0 +1,19 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+
+@emSize: 16px;
+@fontSize : 16px;
+@fontName : 'Open Sans';
+@importGoogleFonts : false;
+
+@orange: #FFB88C;
+
+@linkColor: #77D9C3;
+@linkHoverColor: #FFB88C;
+@linkHoverUnderline: none;
+
+
+/* Colors */
+@orange: #FFB88C;

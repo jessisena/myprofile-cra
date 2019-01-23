@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px !important;
+  /* font-size: 16px !important; */
   /* visibility: hidden !important; */
 }
 
@@ -20,7 +20,7 @@ body {
         
 
 html {
-  font-size: 16px !important;
+  /* font-size: 16px !important; */
 }
 
 code {
@@ -33,12 +33,12 @@ ul {
 }
 
 a {
-  color: var(--primary-color) !important;
+  /* color: var(--primary-color) !important; */
   font-weight: bold;
   font-family: var(--secondary-font-family) !important;
   font-size: 1.1rem !important;
 }
-a:hover {color: var(--contrast-color) !important;}
+a:hover {/* color: var(--contrast-color) !important; */}
 
 :root {
   --primary-color: #77D9C3;
