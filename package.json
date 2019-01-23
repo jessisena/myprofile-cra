@@ -25,7 +25,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "images": "node ./scripts/images.script.js",
-    "resize": "node ./src/resize.images.script.js"
+    "resize": "node ./src/resize.images.script.js",
+    "build-semantic": "cd src/semantic && gulp build-css build-assets"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +39,8 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "responsive-images-generator": "^0.2.2"
+    "gulp": "^3.9.1",
+    "responsive-images-generator": "^0.2.2",
+    "semantic-ui": "^2.4.2"
   }
 }

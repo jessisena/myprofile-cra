@@ -107,7 +107,7 @@ export const TEXT = {
     },
     talk02: {
       header: "Technical workshop about #LasCallesDeLasMujeres",
-      description: <p><b>Technical workshop about #LasCallesDeLasMujeres</b> (May 2018). </p>,
+      description: <p>Technical workshop about #LasCallesDeLasMujeres (May 2018). </p>,
       buttonUrl: URLS.TUTORIAL_LCDLM,
       buttonName: "VIDEO"      
     },
