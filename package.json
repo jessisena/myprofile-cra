@@ -26,7 +26,8 @@
     "deploy": "gh-pages -d build",
     "images": "node ./scripts/images.script.js",
     "resize": "node ./src/resize.images.script.js",
-    "build-semantic": "cd src/semantic && gulp build-css build-assets"
+    "build-semantic": "cd src/semantic && gulp build-css build-assets",
+    "watch-semantic": "cd src/semantic && npm run build-semantic && gulp watch"
   },
   "eslintConfig": {
     "extends": "react-app"
