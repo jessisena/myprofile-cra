@@ -95,27 +95,33 @@ export const TEXT = {
     intro: <p>These are the talks/workshops in which I have participated lately:</p>,
     talk00: {
       header: "#LasCallesDeLasMujeres and GeoChicas",
+      description: <p><a href={URLS.LIGHTNING_TALKS} rel="noopener noreferrer" target="_blank">Empowering Lightning Tals</a>, organized by <i>Gender Justice Group of ThoughtWorks</i>, (January 2019)</p>,
+      buttonUrl: URLS.SLIDES_LIGHTNING_TALKS,
+      buttonName: "SLIDES" 
+    },    
+    talk01: {
+      header: "#LasCallesDeLasMujeres and GeoChicas",
       description: <p><a href={URLS.SMARTCITYEXPO_PROGRAM} rel="noopener noreferrer" target="_blank">Smart City Expo 2018</a>, collaborating in the panel <i>Digital platforms and gender perspective</i>, (November 2018)</p>,
       buttonUrl: URLS.SLIDES_GEOCHICAS01,
       buttonName: "SLIDES" 
     },
-    talk01: {
+    talk02: {
       header: "Ús de dades obertes a les apps",
       description: <p><a href={URLS.HACKATO_DADESXDONES} rel="noopener noreferrer" target="_blank">Hackató DadesXDones</a> (June 2018). </p>,
       buttonUrl: URLS.SLIDES_DADESXDONES,
       buttonName: "SLIDES"      
     },
-    talk02: {
+    talk03: {
       header: "Technical workshop about #LasCallesDeLasMujeres",
       description: <p>Technical workshop about #LasCallesDeLasMujeres (May 2018). </p>,
       buttonUrl: URLS.TUTORIAL_LCDLM,
       buttonName: "VIDEO"      
     },
-    talk03: {
+    talk04: {
       header: "Workshop about hiking tools and services",
       description: <p><a href={URLS.WORKSHOP_TALAIA2018} rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
     },
-    talk04: {
+    talk05: {
       header: "Workshop about apps and tools of ICGC",
       description: <p><a href={URLS.WORKSHOP_TALAIA2017} rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
     }   

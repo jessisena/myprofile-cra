@@ -81,7 +81,12 @@ export default class Content extends React.PureComponent {
         <TalkListItem 
           buttonUrl={TEXT.TALKS.talk04.buttonUrl} buttonName={TEXT.TALKS.talk04.buttonName} 
           header={TEXT.TALKS.talk04.header} description={TEXT.TALKS.talk04.description}>
-        </TalkListItem>                                  
+        </TalkListItem>
+
+        <TalkListItem
+          buttonUrl={TEXT.TALKS.talk05.buttonUrl} buttonName={TEXT.TALKS.talk05.buttonName} 
+          header={TEXT.TALKS.talk05.header} description={TEXT.TALKS.talk05.description}>
+        </TalkListItem>                                    
 
       </List>
     );

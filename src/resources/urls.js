@@ -30,3 +30,5 @@ export const SMARTCITYEXPO_PROGRAM = "";
 export const TUTORIAL_LCDLM = "https://www.youtube.com/watch?v=i5s6JoG4cCo";
 export const WORKSHOP_TALAIA2018 = "http://aetalaia.cat/wp-content/uploads/2018/10/20181108_SESSI%C3%93-ICGC.pdf";
 export const WORKSHOP_TALAIA2017 = "http://aetalaia.cat/wp-content/uploads/2018/10/20181108_SESSI%C3%93-ICGC.pdf";
+export const LIGHTNING_TALKS = "https://www.meetup.com/es-ES/ThoughtWorks-Barcelona/events/257371224/";
+export const SLIDES_LIGHTNING_TALKS = "https://docs.google.com/presentation/d/1gck4C74Smhi-lpvTwTRZStgh0dJm7ti6ixBthR9KcoU/edit?usp=sharing";
