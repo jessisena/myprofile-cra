@@ -41,12 +41,12 @@ export default class Content extends React.PureComponent {
         <p className={styles.contentItemTitle}>MY WORK</p>
 
         <Grid centered stackable>
-          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.instamaps_medium} text={TEXT.INSTAMAPS} buttonText="Visit Instamaps!" buttonUrl={URLS.URL_INSTAMAPS}></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.catoffline_medium} text={TEXT.CATOFF} buttonText="Read more" buttonUrl={URLS.URL_CATOFF} reversed="computer"></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern3" imgSrc={IMAGES.canhemon_medium} text={TEXT.CANHEMON} buttonText="Read more" buttonUrl={URLS.URL_CANHEMON}></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern4" imgSrc={IMAGES.mapicc_medium} text={TEXT.MAPICC} buttonText="Read more" buttonUrl={URLS.URL_MAPICC} reversed="computer"></RowPictureItem>
-          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.ulldeltemps_medium} text={TEXT.ULLDELTEMPS} buttonText="Read more" buttonUrl={URLS.URL_ULLDELTEMPS}></RowPictureItem>   
-          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.onsoc_medium} text={TEXT.ONSOC} buttonText="Read more" buttonUrl={URLS.URL_ONSOC} reversed="computer"></RowPictureItem>   
+          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.instamaps_medium} text={TEXT.INSTAMAPS} buttonText="Visit Instamaps!" buttonUrl={URLS.URL_INSTAMAPS} alt="instamaps"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.catoffline_medium} text={TEXT.CATOFF} buttonText="Read more" buttonUrl={URLS.URL_CATOFF} alt="catoffline" reversed="computer"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern3" imgSrc={IMAGES.canhemon_medium} text={TEXT.CANHEMON} buttonText="Read more" buttonUrl={URLS.URL_CANHEMON} alt="canhemon"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern4" imgSrc={IMAGES.mapicc_medium} text={TEXT.MAPICC} buttonText="Read more" buttonUrl={URLS.URL_MAPICC} alt="mapicc" reversed="computer"></RowPictureItem>
+          <RowPictureItem RowPictureItemClassName="pattern1" imgSrc={IMAGES.ulldeltemps_medium} text={TEXT.ULLDELTEMPS} buttonText="Read more" buttonUrl={URLS.URL_ULLDELTEMPS} alt="ulldetemps"></RowPictureItem>   
+          <RowPictureItem RowPictureItemClassName="pattern2" imgSrc={IMAGES.onsoc_medium} text={TEXT.ONSOC} buttonText="Read more" buttonUrl={URLS.URL_ONSOC} alt="onsoc" reversed="computer"></RowPictureItem>   
         </Grid>        
       </div>
     );    

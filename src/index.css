@@ -10,24 +10,6 @@ body {
   /* visibility: hidden !important; */
 }
 
-.wf-active body{
-    visibility: visible;
-}
-
-#root.fouc .page-layout * {
-  visibility: hidden;
-}
-        
-
-html {
-  /* font-size: 16px !important; */
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 ul {
   list-style: none; /* Remove list bullets */
 }

@@ -30,7 +30,7 @@ export const TEXT = {
       <p>I’ve fully developed Catalunya Offline, an <b>hybrid mobile app</b> available for Android and IOS, that allows people download the Catalan cartography in their devices and use it in offline mode. Some of the functionalities are: locate you on the map, save waypoints and tracks and add pictures and data to them, load files with external geographical data, and connect all this information with the Instamaps.cat platform.</p>
       <p>Catalunya Offline has been developed with the <a href={URLS.IONIC} rel="noopener noreferrer" target="_blank">Ionic Framework</a> (and so, Cordova + Angular).</p>
       <p>Initially it used <a href={URLS.LEAFLET} rel="noopener noreferrer" target="_blank">Leaflet.js</a> + <a href={URLS.ANGULAR_LEAFLET} rel="noopener noreferrer" target="_blank">AngularLeaflet</a> for the map functionalities, but now, it’s been refactorized to use <a href={URLS.MAPBOXGLJS} rel="noopener noreferrer" target="_blank">MapboxGL.js</a> + WebGL technology, to take advantage of the <a href={URLS.MAPBOX_VECTOR_TILES} rel="noopener noreferrer" target="_blank">Vector Tiles</a> system.</p>
-      <p>For this purpose, I have developed some interesting new features for the library, in order to make possible to use it in an <b>offline mode</b>: basically, I have added a new VectorTileOffline source and a new RasterOffline source too. Take a look <a href={URLS.MAPBOXGLJS_JESSISENA} rel="noopener noreferrer" target="_blank">HERE</a>.</p>      
+      <p>For this purpose, I have developed some interesting new features for the library, in order to make possible to use it in an <b>offline mode</b>: basically, I have added a new VectorTileOffline source and a new RasterOffline source too. Check the <a href={URLS.MAPBOXGLJS_JESSISENA} rel="noopener noreferrer" target="_blank">Github Repo</a>.</p>      
     </span>,
 
   CANHEMON:
@@ -41,7 +41,7 @@ export const TEXT = {
                     
       <p>Canhemon App has been developed with <a href={URLS.REACT_NATIVE} rel="noopener noreferrer" target="_blank">React Native</a> + <a href={URLS.REDUX} rel="noopener noreferrer" target="_blank">Redux</a>, and it uses <a href={URLS.LEAFLET} rel="noopener noreferrer" target="_blank">Leaflet.js</a> for the map functionalities.</p>
                     
-      <p>The full source code of the app is <a href={URLS.CANHEMON_APP} rel="noopener noreferrer" target="_blank">HERE</a>.</p>
+      <p>The full source code of the app is available in this <a href={URLS.CANHEMON_APP} rel="noopener noreferrer" target="_blank">Github repository</a>.</p>
                                       
     </span>
   ,
@@ -82,7 +82,7 @@ export const TEXT = {
   GEOCHICAS04: 
               <div>
                 <p>The project is completely open and collaborative, and we are in process of making it grow:</p>
-                <p><Icon name="check" /> Check the Github repositories of the project <a href={URLS.GEOCHICAS_GITHUB}  rel="noopener noreferrer" target="_blank">HERE</a></p>
+                <p><Icon name="check" /> Check the <a href={URLS.GEOCHICAS_GITHUB}  rel="noopener noreferrer" target="_blank">Github repositories</a> of the project.</p>
                 <p><Icon name="check" /> Read a bit more extended technical explanation about the project here: <a href={URLS.MEDIUM_LCDLM}  rel="noopener noreferrer" target="_blank">#LasCallesDeLasMujeres (TheStreetsOfWomen) meets Mapbox #mapmadness18</a></p>
               </div>,  
   OSGEO: 
