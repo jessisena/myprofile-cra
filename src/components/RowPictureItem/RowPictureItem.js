@@ -7,7 +7,7 @@ import styles from "./RowPictureItem.module.css";
 const RowPictureItem = (props) => (
   <Grid.Row className={styles[props.RowPictureItemClassName] || ""} reversed={props.reversed || ""}>
     <Grid.Column verticalAlign="middle" width={6}>
-      <Image rounded bordered centered size="medium" src={props.imgSrc} alt={this.props.alt || "Row Picutre"}/>
+      <Image rounded bordered centered size="medium" src={props.imgSrc} alt={props.alt || "Row Picutre"}/>
     </Grid.Column>
     <Grid.Column className={styles.text} textAlign="justified" width={10}>
       {props.text}
