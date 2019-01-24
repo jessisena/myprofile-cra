@@ -1,7 +1,7 @@
 {
   "main.css": "/myprofile-cra/static/css/main.d259b055.chunk.css",
-  "main.js": "/myprofile-cra/static/js/main.a889bf4d.chunk.js",
-  "main.js.map": "/myprofile-cra/static/js/main.a889bf4d.chunk.js.map",
+  "main.js": "/myprofile-cra/static/js/main.0a5bf408.chunk.js",
+  "main.js.map": "/myprofile-cra/static/js/main.0a5bf408.chunk.js.map",
   "static/css/1.13165121.chunk.css": "/myprofile-cra/static/css/1.13165121.chunk.css",
   "static/js/1.9b3f1a53.chunk.js": "/myprofile-cra/static/js/1.9b3f1a53.chunk.js",
   "static/js/1.9b3f1a53.chunk.js.map": "/myprofile-cra/static/js/1.9b3f1a53.chunk.js.map",
@@ -90,6 +90,6 @@
   "static/css/main.d259b055.chunk.css.map": "/myprofile-cra/static/css/main.d259b055.chunk.css.map",
   "static/css/1.13165121.chunk.css.map": "/myprofile-cra/static/css/1.13165121.chunk.css.map",
   "index.html": "/myprofile-cra/index.html",
-  "precache-manifest.277147a653de678c71cce5411c83235b.js": "/myprofile-cra/precache-manifest.277147a653de678c71cce5411c83235b.js",
+  "precache-manifest.3a42a3db757aff6186750e0759511e12.js": "/myprofile-cra/precache-manifest.3a42a3db757aff6186750e0759511e12.js",
   "service-worker.js": "/myprofile-cra/service-worker.js"
 }
