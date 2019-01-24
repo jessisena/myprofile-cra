@@ -19,7 +19,7 @@ const options = {
 };
 
 
-icongen(path.join(__dirname,"../src/resources/icons/dove-green.svg"), path.join(__dirname,"../public/icons/"), options)
+icongen(path.join(__dirname,"../src/resources/icons/pawprint.svg"), path.join(__dirname,"../public/icons/"), options)
   .then((results) => {
 
     console.log(results)

@@ -10,7 +10,7 @@
 
 @orange: #FFB88C;
 
-@linkColor: #77D9C3;
+@linkColor: #00635C;
 @linkHoverColor: #FFB88C;
 @linkHoverUnderline: none;
 

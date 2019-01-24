@@ -15,21 +15,25 @@ ul {
 }
 
 a {
-  /* color: var(--primary-color) !important; */
+/*   color: var(--secondary-color-dark) !important; */
   font-weight: bold;
   font-family: var(--secondary-font-family) !important;
   font-size: 1.1rem !important;
 }
 a:hover {/* color: var(--contrast-color) !important; */}
 
-:root {
-  --secondary-color: #A0EF83;
-  --secondary-color-light: /* #A7EDDD; */ lighten(var(--secondary-color), 50%);
-  --secondary-color-dark: /* #4FBFA6; */ darken(var(--secondary-color), 50%);
 
-  --primary-color: #77D9C3;
-  --primary-color-light: /* #C2F8AE; */ lighten(var(--primary-color), 50%);
-  --primary-color-dark: /* #83E55F; */ darken(var(--primary-color), 50%);
+/* --secondary-color: #A0EF83;
+--primary-color: #77D9C3; */
+
+:root {
+  --secondary-color: #11998e;
+  --secondary-color-light: #A7EDDD; /* lighten(var(--secondary-color), 50%); */
+  --secondary-color-dark: #00635C; /* #4FBFA6; *//*  darken(var(--secondary-color), 50%); */
+
+  --primary-color: #38ef7d; 
+  --primary-color-light: #C2F8AE; /* lighten(var(--primary-color), 50%); */
+  --primary-color-dark: #83E55F; /* darken(var(--primary-color), 50%); */
   
   --primary-white: #DCFBF4;
   --contrast-color: #FFB88C;
