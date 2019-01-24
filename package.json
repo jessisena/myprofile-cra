@@ -26,6 +26,7 @@
     "deploy": "gh-pages -d build",
     "images": "node ./scripts/images.script.js",
     "resize": "node ./scripts/resize.images.script.js",
+    "icons": "node ./scripts/generate.icons.script.js",
     "build-semantic": "cd src/semantic && gulp build-css build-assets",
     "watch-semantic": "cd src/semantic && npm run build-semantic && gulp watch"
   },
@@ -41,6 +42,7 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
+    "icon-gen": "^2.0.0",
     "responsive-images-generator": "^0.2.2",
     "semantic-ui": "^2.4.2"
   }

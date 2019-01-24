@@ -17,11 +17,12 @@ export const TEXT = {
     <span>
       <p>I worked widely as a front-end and back-en developer in the project InstaMaps.cat, an online web platform to create maps with your own data.</p>
       <p>Right now, the platform has about 9,000 users that have created more than 35,000 maps.</p>
-      <p>Based in the following technologies:
-        <ul>
-          <li><Icon name="check"></Icon>FRONT-END: Javascript + JQuery + Bootstrap and Leaflet.js.</li>
-          <li><Icon name="check"></Icon>BACK-END: Java +  Struts + Hibernate and a PostGIS Database</li>
-        </ul>
+      <p>Based in the following technologies:</p>
+      <p>
+        <span><Icon name="check"></Icon><b>Front-end</b>: Javascript + JQuery + Bootstrap and Leaflet.js.</span>
+        <br></br>
+        <span><Icon name="check"></Icon><b>Back-end</b>: Java +  Struts + Hibernate and a PostGIS Database</span>
+        <br></br>
       </p>
     </span>,
     
@@ -95,7 +96,7 @@ export const TEXT = {
     intro: <p>These are the talks/workshops in which I have participated lately:</p>,
     talk00: {
       header: "#LasCallesDeLasMujeres and GeoChicas",
-      description: <p><a href={URLS.LIGHTNING_TALKS} rel="noopener noreferrer" target="_blank">Empowering Lightning Tals</a>, organized by <i>Gender Justice Group of ThoughtWorks</i>, (January 2019)</p>,
+      description: <p><a href={URLS.LIGHTNING_TALKS} rel="noopener noreferrer" target="_blank">Empowering Lightning Talks</a>, organized by <i>Gender Justice Group of ThoughtWorks</i>, (January 2019)</p>,
       buttonUrl: URLS.SLIDES_LIGHTNING_TALKS,
       buttonName: "SLIDES" 
     },    
