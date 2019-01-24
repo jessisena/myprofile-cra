@@ -1,11 +1,35 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "JSG",
+  "name": "JSG Profile Page",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./icons/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }, {
+      "src": "./icons/favicon-228.png",
+      "sizes": "228x228",
+      "type": "image/png"
+    }, {
+      "src": "./icons/favicon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }, {
+      "src": "./icons/favicon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "./icons/favicon-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }, {
+      "src": "./icons/favicon-57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    }, {
+      "src": "./icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
     }
   ],
   "start_url": ".",

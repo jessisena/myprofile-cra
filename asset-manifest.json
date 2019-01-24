@@ -1,14 +1,14 @@
 {
   "main.css": "/myprofile-cra/static/css/main.d8f0ccac.chunk.css",
-  "main.js": "/myprofile-cra/static/js/main.ce9c9abf.chunk.js",
-  "main.js.map": "/myprofile-cra/static/js/main.ce9c9abf.chunk.js.map",
+  "main.js": "/myprofile-cra/static/js/main.14af7965.chunk.js",
+  "main.js.map": "/myprofile-cra/static/js/main.14af7965.chunk.js.map",
   "static/css/1.27207830.chunk.css": "/myprofile-cra/static/css/1.27207830.chunk.css",
   "static/js/1.52fa7c5c.chunk.js": "/myprofile-cra/static/js/1.52fa7c5c.chunk.js",
   "static/js/1.52fa7c5c.chunk.js.map": "/myprofile-cra/static/js/1.52fa7c5c.chunk.js.map",
   "runtime~main.js": "/myprofile-cra/static/js/runtime~main.2a89a113.js",
   "runtime~main.js.map": "/myprofile-cra/static/js/runtime~main.2a89a113.js.map",
   "static/media/lascalles02_medium@2x.jpg": "/myprofile-cra/static/media/lascalles02_medium@2x.65221458.jpg",
-  "static/media/index.css": "/myprofile-cra/static/media/open-sans-latin-300.521d17bc.woff",
+  "static/media/index.css": "/myprofile-cra/static/media/open-sans-latin-300italic.06bbd318.woff2",
   "static/media/semantic.min.css": "/myprofile-cra/static/media/brand-icons.65363c4d.svg",
   "static/media/banner_lcdlm2_medium.jpg": "/myprofile-cra/static/media/banner_lcdlm2_medium.7121e6f4.jpg",
   "static/media/banner_lcdlm2_medium@2x.jpg": "/myprofile-cra/static/media/banner_lcdlm2_medium@2x.6f684434.jpg",
@@ -90,6 +90,6 @@
   "static/css/main.d8f0ccac.chunk.css.map": "/myprofile-cra/static/css/main.d8f0ccac.chunk.css.map",
   "static/css/1.27207830.chunk.css.map": "/myprofile-cra/static/css/1.27207830.chunk.css.map",
   "index.html": "/myprofile-cra/index.html",
-  "precache-manifest.571b20a6e89b1dd146ee089c9774d357.js": "/myprofile-cra/precache-manifest.571b20a6e89b1dd146ee089c9774d357.js",
+  "precache-manifest.75e39e7198655314c44fda3ab289c67f.js": "/myprofile-cra/precache-manifest.75e39e7198655314c44fda3ab289c67f.js",
   "service-worker.js": "/myprofile-cra/service-worker.js"
 }
