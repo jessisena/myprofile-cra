@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/instamaps_small.4f6c7783.jpg"
   },
   {
-    "revision": "0a5bf40825e09b97b01f",
+    "revision": "a889bf4d2518f1653eab",
     "url": "/myprofile-cra/static/css/main.d259b055.chunk.css"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/open-sans-latin-300italic.06bbd318.woff2"
   },
   {
-    "revision": "cffb686d7d2f4682df8342bd4d276e09",
-    "url": "/myprofile-cra/static/media/open-sans-latin-400.cffb686d.woff2"
-  },
-  {
     "revision": "987032ea5d57c93d8da215678eae3b86",
     "url": "/myprofile-cra/static/media/open-sans-latin-400italic.987032ea.woff2"
+  },
+  {
+    "revision": "cffb686d7d2f4682df8342bd4d276e09",
+    "url": "/myprofile-cra/static/media/open-sans-latin-400.cffb686d.woff2"
   },
   {
     "revision": "223a277bd88d8a90c8cdf24cda0ad5f5",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/open-sans-latin-800italic.6b3973ff.woff2"
   },
   {
-    "revision": "8a648ff38ded89ea15916e84529d62d3",
-    "url": "/myprofile-cra/static/media/open-sans-latin-300italic.8a648ff3.woff"
-  },
-  {
     "revision": "521d17bc9f3526c690e8ada6eee55bec",
     "url": "/myprofile-cra/static/media/open-sans-latin-300.521d17bc.woff"
+  },
+  {
+    "revision": "8a648ff38ded89ea15916e84529d62d3",
+    "url": "/myprofile-cra/static/media/open-sans-latin-300italic.8a648ff3.woff"
   },
   {
     "revision": "bf2d0783515b7d75c35bde69e01b3135",
@@ -132,12 +132,12 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
-    "url": "/myprofile-cra/static/media/outline-icons.ad97afd3.ttf"
-  },
-  {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/myprofile-cra/static/media/outline-icons.701ae6ab.eot"
+  },
+  {
+    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
+    "url": "/myprofile-cra/static/media/outline-icons.ad97afd3.ttf"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -160,16 +160,16 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/myprofile-cra/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/myprofile-cra/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/myprofile-cra/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/myprofile-cra/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "b551b554a67e86a840bc80cbb8066c30",
@@ -248,8 +248,8 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/instamaps_medium@2x.7701eeb6.jpg"
   },
   {
-    "revision": "0a5bf40825e09b97b01f",
-    "url": "/myprofile-cra/static/js/main.0a5bf408.chunk.js"
+    "revision": "a889bf4d2518f1653eab",
+    "url": "/myprofile-cra/static/js/main.a889bf4d.chunk.js"
   },
   {
     "revision": "a63dd8f9cdf6902d593c5e7caf575a63",
@@ -496,7 +496,7 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/css/1.13165121.chunk.css"
   },
   {
-    "revision": "6a4a2ade2665b40003b4596376a39737",
+    "revision": "f9c9c0d394ea0ff432f58d8d7c2819d1",
     "url": "/myprofile-cra/index.html"
   }
 ];
