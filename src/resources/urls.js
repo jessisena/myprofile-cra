@@ -32,3 +32,6 @@ export const WORKSHOP_TALAIA2018 = "http://aetalaia.cat/wp-content/uploads/2018/
 export const WORKSHOP_TALAIA2017 = "http://aetalaia.cat/wp-content/uploads/2018/10/20181108_SESSI%C3%93-ICGC.pdf";
 export const LIGHTNING_TALKS = "https://www.meetup.com/es-ES/ThoughtWorks-Barcelona/events/257371224/";
 export const SLIDES_LIGHTNING_TALKS = "https://docs.google.com/presentation/d/1gck4C74Smhi-lpvTwTRZStgh0dJm7ti6ixBthR9KcoU/edit?usp=sharing";
+export const OPENSTREETMAP = "https://www.openstreetmap.org/about";
+export const GEOCHICAS = "https://geochicas.org/";
+export const OSGEO = "https://www.osgeo.org/";

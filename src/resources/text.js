@@ -8,14 +8,14 @@ export const TEXT = {
       <p>My work there includes the development of <b>prototypes and the research of new technologies</b>, as well as the design and <b>development of web applications</b> (front-end and back-end).<br/> 
         <br></br><Icon name="info circle"></Icon>Check some exemples of our work at <a href={URLS.BETAPORTAL} rel="noopener noreferrer" target="_blank">BETAPORTAL</a>. </p>
       <p>I have also been in charge of several <b>mobile application</b> development projects.</p>
-      <p>In addition, as part of Geostart I have acquired a wide knowledge of geotechnologies, working as a <b>GIS developer</b></p>
-      <p>In 2016 I finished a postgraduate course in <b>UX Design</b>, aiming to expand my overall vision of the whole development process of a technological product, and complementing my knowledge as a developer, giving it an extra value to the work I do in the projects in which I participate</p>
+      <p>In addition, as part of Geostart I have acquired a wide knowledge of geotechnologies, working as a <b>GIS developer</b>.</p>
+      <p>In 2016 I finished a postgraduate course in <b>UX Design</b>, aiming to expand my overall vision of the whole development process of a technological product, and complementing my knowledge as a developer, giving it an extra value to the work I do in the projects in which I participate.</p>
       <p>This background gives me a very versatile profile and the ability to deal with many different technologies.</p>
     </span>,
   
   INSTAMAPS: 
     <span>
-      <p>I worked widely as a front-end and back-en developer in the project InstaMaps.cat, an online web platform to create maps with your own data.</p>
+      <p>I worked widely as a front-end and back-end developer in the project InstaMaps.cat, an online web platform to create maps with your own data.</p>
       <p>Right now, the platform has about 9,000 users that have created more than 35,000 maps.</p>
       <p>Based in the following technologies:</p>
       <p>
@@ -68,27 +68,27 @@ export const TEXT = {
     </span>
   ,
 
-  GEOCHICAS01: <p>I am a member of GeoChicasOSM, a community present in several Spanish-speaking countries, with the aim of closing the gender gap in #OpenStreetMap and in different areas of geo-technologies, enhancing the realization of collaborative projects and contacting women in the sector.</p>,
-  GEOCHICAS02: <p>Inside this community I am in charge of the technical development of the project #lasCallesDeLasMujeres / #TheStreetsOfWomen.</p>,
+  GEOCHICAS01: <p>I am a member of <a href={URLS.GEOCHICAS}  rel="noopener noreferrer" target="_blank">GeoChicasOSM</a>, a community present in several Spanish-speaking countries, with the aim of closing the gender gap in <a href={URLS.OPENSTREETMAP} rel="noopener noreferrer" target="_blank">@OpenStreetMap</a> and in different areas of geo-technologies, enhancing the realization of collaborative projects and contacting women in the sector.</p>,
+  GEOCHICAS02: <p>Inside this community I am in charge of the technical development of the project <b>#lasCallesDeLasMujeres / #TheStreetsOfWomen</b>.</p>,
   GEOCHICAS03: 
     <div>
       <p>The main objective of the project is to make visible the scarce representation of women in the public and digital spaces. To achieve it we have done two things:</p>
       <ul>
-        <li><Icon name="map" /> Created a world map where the minority that represent the streets named after a women is shown, compared to those named after men.</li>
+        <li><Icon name="map" /> Created a <b>world map</b> where the minority that represent the streets named after a women is shown, compared to those named after men.</li>
         <br/>
-        <li><Icon name="wikipedia w" /> Linked each of these famous women with their corresponding article in Wikipedia, to also show that many of them do not even appear.</li>
+        <li><Icon name="wikipedia w" /> Linked each of these famous women with their corresponding article in <b>Wikipedia</b>, to also show that many of them do not even appear.</li>
       </ul>
     </div>
   ,
   GEOCHICAS04: 
               <div>
-                <p>The project is completely open and collaborative, and we are in process of making it grow:</p>
+                <p>The project is completely <b>open and collaborative</b>, and we are in process of making it grow:</p>
                 <p><Icon name="check" /> Check the <a href={URLS.GEOCHICAS_GITHUB}  rel="noopener noreferrer" target="_blank">Github repositories</a> of the project.</p>
                 <p><Icon name="check" /> Read a bit more extended technical explanation about the project here: <a href={URLS.MEDIUM_LCDLM}  rel="noopener noreferrer" target="_blank">#LasCallesDeLasMujeres (TheStreetsOfWomen) meets Mapbox #mapmadness18</a></p>
               </div>,  
   OSGEO: 
     <div>
-      <p>Since October 2018 I am also a charter member of Open Source Geospatial Foundation (OSGEO), a non-profit non-governmental organization whose mission is to support and promote the collaborative development of open geospatial technologies and data.</p>
+      <p>Since October 2018 I am also a charter member of <a href={URLS.OSGEO} rel="noopener noreferrer" target="_blank">Open Source Geospatial Foundation (OSGEO)</a>, a non-profit non-governmental organization whose mission is to support and promote the collaborative development of open geospatial technologies and data.</p>
       <p>As a charter member I am also an OSGEO advocate: </p>
     </div>,
 
@@ -135,12 +135,12 @@ export const TEXT = {
       </div>,
   SKILLS: 
       <span>
-        <p> <Icon name="check" /> Very comfortable developing <b>JavaScript</b> large applications and good knowledge about <b>HTML5</b> and <b>CSS3/SASS</b>.      
+        <p> <Icon name="check" /> Very comfortable developing <b>JavaScript</b> large applications and I have good knowledge about <b>HTML5</b> and <b>CSS3/SASS</b>.      
         </p>
-        <p><Icon name="check" /> Back-end experience developing with Node and Express (and also JAVA, of course!).</p>
-        <p><Icon name="check" /> My current preferred front end technology to work is React, and I have good experience with it (even with Redux). But I also have a good knowledge of Angular 1 and Angular 2.</p>
-        <p> <Icon name="check" /> Wide experience developing hybrid apps. Although I've worked deeply with Ionic Framework, currently I'm working intensively with <b>React Native</b>.</p>
-        <p> <Icon name="check" /> Good knowledge about the geo scope: I know <b>OpenLayers</b> and I've worked extensively with <b>Leaflet.js</b>. But nowadays I’m using <b>MapboxGL JS</b> as a preferred framework to work with. In fact, I’ve just developed some interesting new features for this library to make possible using it in an offline mode (as I have explained HERE).</p>
+        <p><Icon name="check" /> <b>Back-end</b> experience developing with Node and Express (and also JAVA, of course!).</p>
+        <p><Icon name="check" /> My current preferred <b>front-end</b> technology to work is <b>React</b>, and I have good experience with it (even with <b>Redux!</b>). But I also have a good knowledge of Angular 1 and Angular 2.</p>
+        <p> <Icon name="check" /> Wide experience developing hybrid apps. Although I've worked deeply with <b>Ionic Framework</b>, currently I'm working intensively with <b>React Native</b>.</p>
+        <p> <Icon name="check" /> Very good knowledge about different mapping technologies. I know <b>OpenLayers</b> and I've worked extensively with <b>Leaflet.js</b>. But nowadays I’m working mainly with <b>MapboxGL JS</b>.</p>
         <p> <Icon name="check" /> Not afraid about learning and discover new frameworks and technologies. Moreover, I really enjoy doing it! That’s why I always try to make my best to improve my skills, assisting as many conferences/meetings related with technology as I can, as well as doing courses and reading books and articles. </p>        
       </span>    
   ,    

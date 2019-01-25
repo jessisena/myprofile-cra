@@ -192,7 +192,7 @@ export default class Content extends React.PureComponent {
         <p className={styles.contentItemTitle}>MY SKILLS</p>
 
         {TEXT.SKILLS}
-
+        <Divider hidden/>
       </div>
     );
 
@@ -212,7 +212,7 @@ export default class Content extends React.PureComponent {
         </BackgroundPattern>        
 
         <BackgroundPattern pttrn="circuit-gray">
-          {this.renderMySkills()}
+          {this.renderMySkills()}          
         </BackgroundPattern>
 
 
