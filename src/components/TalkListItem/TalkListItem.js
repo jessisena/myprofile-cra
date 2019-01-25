@@ -1,6 +1,6 @@
 import React from "react";
 
-import { List, Button, Responsive } from "semantic-ui-react";
+import { List, Button, Responsive, Icon } from "semantic-ui-react";
 import styles from "./TalkListItem.module.css";
 
 const TalkListItem = (props) => (
@@ -9,11 +9,11 @@ const TalkListItem = (props) => (
     {props.buttonUrl && 
       <List.Content floated='right'>
         <Responsive 
-          as={() =><Button color={props.color || "grey"} onClick={()=>window.open(props.buttonUrl, "_blank")}>{props.buttonName}</Button>} 
+          as={() =><Icon circular inverted large color={props.color || "teal"} name={props.buttonName || "arrow right"} link onClick={()=>window.open(props.buttonUrl, "_blank")}/>} 
           {...Responsive.onlyComputer} 
           color={props.color || "grey"} 
           inverted 
-          onClick={()=>window.open(props.buttonUrl, "_blank")}>{props.buttonName}
+          onClick={()=>window.open(props.buttonUrl, "_blank")}>
         </Responsive>
       </List.Content>
     }
@@ -23,11 +23,11 @@ const TalkListItem = (props) => (
       <List.Description> {props.description} </List.Description>
       {props.buttonUrl &&
         <Responsive          
-          as={() =><Button className={styles.buttonMobile} color={props.color || "grey"} inverted onClick={()=>window.open(props.buttonUrl, "_blank")}>{props.buttonName}</Button>} 
+          as={() =><Icon circular className={styles.buttonMobile}  inverted color={props.color || "teal"} name={props.buttonName || "arrow right"} link onClick={()=>window.open(props.buttonUrl, "_blank")}/>} 
           {...Responsive.onlyMobile} 
           color={props.color || "grey"} 
           inverted 
-          onClick={()=>window.open(props.buttonUrl, "_blank")}>{props.buttonName}
+          onClick={()=>window.open(props.buttonUrl, "_blank")}>
         </Responsive>
       }      
     </List.Content>

@@ -28,7 +28,7 @@ export const TEXT = {
     
   CATOFF: 
     <span>
-      <p>I’ve fully developed Catalunya Offline, an <b>hybrid mobile app</b> available for Android and IOS, that allows people download the Catalan cartography in their devices and use it in offline mode. Some of the functionalities are: locate you on the map, save waypoints and tracks and add pictures and data to them, load files with external geographical data, and connect all this information with the Instamaps.cat platform.</p>
+      <p>I’ve fully developed Catalunya Offline, an <b>hybrid mobile app</b> available for Android and IOS, that allows people to download the Catalan cartography in their devices and use it in offline mode. Some of the functionalities are: ing you on the map, saving waypoints and tracks and adding pictures and data to them, loading files with external geographical data, and connecting all this information with the Instamaps.cat platform.</p>
       <p>Catalunya Offline has been developed with the <a href={URLS.IONIC} rel="noopener noreferrer" target="_blank">Ionic Framework</a> (and so, Cordova + Angular).</p>
       <p>Initially it used <a href={URLS.LEAFLET} rel="noopener noreferrer" target="_blank">Leaflet.js</a> + <a href={URLS.ANGULAR_LEAFLET} rel="noopener noreferrer" target="_blank">AngularLeaflet</a> for the map functionalities, but now, it’s been refactorized to use <a href={URLS.MAPBOXGLJS} rel="noopener noreferrer" target="_blank">MapboxGL.js</a> + WebGL technology, to take advantage of the <a href={URLS.MAPBOX_VECTOR_TILES} rel="noopener noreferrer" target="_blank">Vector Tiles</a> system.</p>
       <p>For this purpose, I have developed some interesting new features for the library, in order to make possible to use it in an <b>offline mode</b>: basically, I have added a new VectorTileOffline source and a new RasterOffline source too. Check the <a href={URLS.MAPBOXGLJS_JESSISENA} rel="noopener noreferrer" target="_blank">Github Repo</a>.</p>      
@@ -38,7 +38,7 @@ export const TEXT = {
     <span>
       <p>I've worked in the Canhemon Tree Checker project, for the <a href={URLS.JRC} rel="noopener noreferrer" target="_blank">Joint Research Centre (European Comission)</a>.</p>
                     
-      <p>I fully developed the <b>Canhemon mobile application</b>. The main goal of the app is to allow users to collect information about trees directly on the territory, to be stored in a central database. The application also works completely offline, downloading previously the geographical area where the users will work, and synchronizing the data automatically with the server when it detects internet connection.</p>
+      <p>I fully developed the <b>Canhemon mobile application</b>. The main goal of the app is to allow users to collect information about trees directly on the territory, to be stored in a central database. The application also works completely offline, previously downloading the geographical area where the users will work, and synchronizing the data automatically with the server when it detects internet connection.</p>
                     
       <p>Canhemon App has been developed with <a href={URLS.REACT_NATIVE} rel="noopener noreferrer" target="_blank">React Native</a> + <a href={URLS.REDUX} rel="noopener noreferrer" target="_blank">Redux</a>, and it uses <a href={URLS.LEAFLET} rel="noopener noreferrer" target="_blank">Leaflet.js</a> for the map functionalities.</p>
                     
@@ -49,22 +49,22 @@ export const TEXT = {
 
   MAPICC:
     <span>
-      <p>I've fully developed MapICC, an app to visualize and interact with the Catalan cartography in online and offline mode. MapICC has some simple but nice functionalities like locate you on the map, load your own track files, or find places in the map.</p> 
-      <p>MapICC it's been developed as a pure <b>Android native</b> application.</p>                  
+      <p>I've fully developed MapICC, an app to visualize and interact with the Catalan cartography in online and offline mode. MapICC has some simple but nice functionalities like locating you on the map, loading your own track files, or finding places in the map.</p> 
+      <p>MapICC was developed as a pure <b>Android native</b> application.</p>                  
     </span>
   ,
 
   ULLDELTEMPS:
     <span>
       <p>I've also worked developing Ull del temps, an app based in a previous desktop app, L'Ull del temps, that let the users see how are and how were the places where they are, and others. </p> 
-      <p>Is an Hybrid app, available for Android and IOS, based in the Ionic framework + Leaflet.js</p>      
+      <p>It's an Hybrid app, available for Android and IOS, based in the Ionic framework + Leaflet.js</p>      
     </span>
   ,
 
   ONSOC:
     <span>
-      <p>I've developed OnSóc, a simple app that let the users share their position with other people, in a very easy way, throw social networks and others.</p> 
-      <p>Is an Hybrid app, available for Android and IOS, based in the Ionic framework + Leaflet.js</p>
+      <p>I've developed OnSóc, a simple app that let the users share their position with other people, in a very easy way, through social networks and others.</p> 
+      <p>It's an Hybrid app, available for Android and IOS, based in the Ionic framework + Leaflet.js</p>
     </span>
   ,
 
@@ -98,25 +98,25 @@ export const TEXT = {
       header: "#LasCallesDeLasMujeres and GeoChicas",
       description: <p><a href={URLS.LIGHTNING_TALKS} rel="noopener noreferrer" target="_blank">Empowering Lightning Talks</a>, organized by <i>Gender Justice Group of ThoughtWorks</i>, (January 2019)</p>,
       buttonUrl: URLS.SLIDES_LIGHTNING_TALKS,
-      buttonName: "SLIDES" 
+      buttonName: "file powerpoint" 
     },    
     talk01: {
       header: "#LasCallesDeLasMujeres and GeoChicas",
       description: <p><a href={URLS.SMARTCITYEXPO_PROGRAM} rel="noopener noreferrer" target="_blank">Smart City Expo 2018</a>, collaborating in the panel <i>Digital platforms and gender perspective</i>, (November 2018)</p>,
       buttonUrl: URLS.SLIDES_GEOCHICAS01,
-      buttonName: "SLIDES" 
+      buttonName: "file powerpoint" 
     },
     talk02: {
       header: "Ús de dades obertes a les apps",
       description: <p><a href={URLS.HACKATO_DADESXDONES} rel="noopener noreferrer" target="_blank">Hackató DadesXDones</a> (June 2018). </p>,
       buttonUrl: URLS.SLIDES_DADESXDONES,
-      buttonName: "SLIDES"      
+      buttonName: "file powerpoint"     
     },
     talk03: {
       header: "Technical workshop about #LasCallesDeLasMujeres",
       description: <p>Technical workshop about #LasCallesDeLasMujeres (May 2018). </p>,
       buttonUrl: URLS.TUTORIAL_LCDLM,
-      buttonName: "VIDEO"      
+      buttonName: "video play"      
     },
     talk04: {
       header: "Workshop about hiking tools and services",
@@ -135,13 +135,13 @@ export const TEXT = {
       </div>,
   SKILLS: 
       <span>
-        <p> <Icon name="check" /> Very comfortable developing <b>JavaScript</b> large applications and I have good knowledge about <b>HTML5</b> and <b>CSS3/SASS</b>.      
+        <p> <Icon name="check" /> Very comfortable developing large <b>JavaScript</b> applications and I have good knowledge about <b>HTML5</b> and <b>CSS3/SASS</b>.      
         </p>
         <p><Icon name="check" /> <b>Back-end</b> experience developing with Node and Express (and also JAVA, of course!).</p>
         <p><Icon name="check" /> My current preferred <b>front-end</b> technology to work is <b>React</b>, and I have good experience with it (even with <b>Redux!</b>). But I also have a good knowledge of Angular 1 and Angular 2.</p>
         <p> <Icon name="check" /> Wide experience developing hybrid apps. Although I've worked deeply with <b>Ionic Framework</b>, currently I'm working intensively with <b>React Native</b>.</p>
         <p> <Icon name="check" /> Very good knowledge about different mapping technologies. I know <b>OpenLayers</b> and I've worked extensively with <b>Leaflet.js</b>. But nowadays I’m working mainly with <b>MapboxGL JS</b>.</p>
-        <p> <Icon name="check" /> Not afraid about learning and discover new frameworks and technologies. Moreover, I really enjoy doing it! That’s why I always try to make my best to improve my skills, assisting as many conferences/meetings related with technology as I can, as well as doing courses and reading books and articles. </p>        
+        <p> <Icon name="check" /> Not afraid about learning and discovering new frameworks and technologies. Moreover, I really enjoy doing it! That’s why I always try to make my best to improve my skills, assisting as many conferences/meetings related with technology as I can, as well as doing courses and reading books and articles. </p>        
       </span>    
   ,    
   COURSES: {

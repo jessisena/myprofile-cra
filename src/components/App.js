@@ -42,9 +42,9 @@ class App extends PureComponent {
         <h2 className={styles.title}>Contact</h2>
         <div>          
           <p><Icon name="envelope" />  <a href={URLS.MAILTO_JESSISENA}>jessisena@gmail.com</a></p>
-          <p><Icon name="envelope" />  <a href={URLS.URL_LINKEDIN} rel="noopener noreferrer" target="_blank">www.linkedin.com/jessicasenag</a></p>
-          <p><Icon name="envelope" />  <a href={URLS.URL_GITHUB} rel="noopener noreferrer" target="_blank">github.com/jessisena</a></p>
-          <p><Icon name="download" />  <a href={URLS.URL_CV} rel="noopener noreferrer" target="_blank">Curriculum in PDF</a></p>
+          <p><Icon name="linkedin" />  <a href={URLS.URL_LINKEDIN} rel="noopener noreferrer" target="_blank">www.linkedin.com/jessicasenag</a></p>
+          <p><Icon name="github" />  <a href={URLS.URL_GITHUB} rel="noopener noreferrer" target="_blank">github.com/jessisena</a></p>
+          <p><Icon name="file pdf" />  <a href={URLS.URL_CV} rel="noopener noreferrer" target="_blank">Curriculum in PDF</a></p>
         </div>        
       </div>         
     );
