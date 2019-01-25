@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/instamaps_small.4f6c7783.jpg"
   },
   {
-    "revision": "7d3b60f5b116c17bb943",
-    "url": "/myprofile-cra/static/css/main.d259b055.chunk.css"
+    "revision": "31af2f60e1f86a5538ab",
+    "url": "/myprofile-cra/static/css/main.428eb233.chunk.css"
   },
   {
     "revision": "3549107a767254afbd723b8492cc15fa",
@@ -248,8 +248,8 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/instamaps_medium@2x.7701eeb6.jpg"
   },
   {
-    "revision": "7d3b60f5b116c17bb943",
-    "url": "/myprofile-cra/static/js/main.7d3b60f5.chunk.js"
+    "revision": "31af2f60e1f86a5538ab",
+    "url": "/myprofile-cra/static/js/main.31af2f60.chunk.js"
   },
   {
     "revision": "a63dd8f9cdf6902d593c5e7caf575a63",
@@ -496,7 +496,7 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/css/1.13165121.chunk.css"
   },
   {
-    "revision": "c1ccebf0220dea9ffee3c1f7f2ba05b0",
+    "revision": "99c21ad39885af5231214bfd137ead32",
     "url": "/myprofile-cra/index.html"
   }
 ];
