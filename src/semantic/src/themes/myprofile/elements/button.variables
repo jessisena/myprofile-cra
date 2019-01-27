@@ -1,1 +1,4 @@
 @orange: #FFB88C;
+
+/* Text */
+@fontFamily: 'Open Sans Condensed';
