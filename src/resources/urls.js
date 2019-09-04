@@ -35,3 +35,6 @@ export const SLIDES_LIGHTNING_TALKS = "https://docs.google.com/presentation/d/1g
 export const OPENSTREETMAP = "https://www.openstreetmap.org/about";
 export const GEOCHICAS = "https://geochicas.org/";
 export const OSGEO = "https://www.osgeo.org/";
+export const SIGLLIURE2019 = "https://vimeo.com/showcase/6126225/video/347721105";
+export const SIGLLIURE = "http://www.sigte.udg.edu/jornadassiglibre/";
+export const TYPEFORM = "https://www.typeform.com/";

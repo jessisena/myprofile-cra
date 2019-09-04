@@ -59,6 +59,11 @@ export default class Content extends React.PureComponent {
       <List divided verticalAlign='middle'>
 
         <TalkListItem 
+          buttonUrl={TEXT.TALKS.talk06.buttonUrl} buttonName={TEXT.TALKS.talk06.buttonName} 
+          header={TEXT.TALKS.talk06.header} description={TEXT.TALKS.talk06.description}>
+        </TalkListItem>
+
+        <TalkListItem 
           buttonUrl={TEXT.TALKS.talk00.buttonUrl} buttonName={TEXT.TALKS.talk00.buttonName} 
           header={TEXT.TALKS.talk00.header} description={TEXT.TALKS.talk00.description}>
         </TalkListItem>

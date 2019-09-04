@@ -4,13 +4,14 @@ import * as URLS from "./urls";
 
 export const TEXT = {
   BACKGROUND: 
-    <span><p>I am a Computer Engineer, working since 2013 as a member of Geostart, the <b>innovation group</b> of the Institut Cartogràfic i Geològic de Catalunya.</p>
-      <p>My work there includes the development of <b>prototypes and the research of new technologies</b>, as well as the design and <b>development of web applications</b> (front-end and back-end).<br/> 
-        <br></br><Icon name="info circle"></Icon>Check some exemples of our work at <a href={URLS.BETAPORTAL} rel="noopener noreferrer" target="_blank">BETAPORTAL</a>. </p>
-      <p>I have also been in charge of several <b>mobile application</b> development projects.</p>
-      <p>In addition, as part of Geostart I have acquired a wide knowledge of geotechnologies, working as a <b>GIS developer</b>.</p>
+    <span><p>From 2013 to 2019 I worked as a member of Geostart, the <b>innovation group</b> of the Institut Cartogràfic i Geològic de Catalunya.</p>
+      <p>My work there included the development of <b>prototypes and the research of new technologies</b>, as well as the design and <b>development of web applications</b> (front-end and back-end). I was also in charge of several <b>mobile application</b> development projects.</p>
+      <Icon name="info circle"></Icon>Check some exemples of our work there at <a href={URLS.BETAPORTAL} rel="noopener noreferrer" target="_blank">BETAPORTAL</a>.<br></br><br></br>
+      <p>As part of Geostart I acquired a wide knowledge of geotechnologies, working as a <b>GIS developer</b>.</p>
       <p>In 2016 I finished a postgraduate course in <b>UX Design</b>, aiming to expand my overall vision of the whole development process of a technological product, and complementing my knowledge as a developer, giving it an extra value to the work I do in the projects in which I participate.</p>
-      <p>This background gives me a very versatile profile and the ability to deal with many different technologies.</p>
+      <p>Currently I am working as a software engineer at <a href={URLS.TYPEFORM} rel="noopener noreferrer" target="_blank">TYPEFORM</a>. Specifically in the <b>Growth Team</b>, where we iterate through experiments and AB tests in order to find out what works best for the users.</p>
+      <p>This not only allows us to work with a wide stack of different technologies, but also to have freedom to try new ideas and be creative.</p>
+      <p>This background gives me a very versatile profile and the ability to be resolutive and to deal with many different technologies .</p>
     </span>,
   
   INSTAMAPS: 
@@ -93,7 +94,13 @@ export const TEXT = {
     </div>,
 
   TALKS: {
-    intro: <p>These are the talks/workshops in which I have participated lately:</p>,
+    intro: <p>These are the talks/workshops in which I have participated lately:</p>,    
+    talk06: {
+      header: "#LasCallesDeLasMujeres",
+      description: <p><a href={URLS.SIGLLIURE} rel="noopener noreferrer" target="_blank">SIGLibre Girona Conference</a>, organized by <i>Universitat de Girona</i>, (May 2019)</p>,
+      buttonUrl: URLS.SIGLLIURE2019,
+      buttonName: "video play" 
+    },    
     talk00: {
       header: "#LasCallesDeLasMujeres and GeoChicas",
       description: <p><a href={URLS.LIGHTNING_TALKS} rel="noopener noreferrer" target="_blank">Empowering Lightning Talks</a>, organized by <i>Gender Justice Group of ThoughtWorks</i>, (January 2019)</p>,
@@ -124,7 +131,7 @@ export const TEXT = {
     },
     talk05: {
       header: "Workshop about apps and tools of ICGC",
-      description: <p><a href={URLS.WORKSHOP_TALAIA2017} rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2018)</p>    
+      description: <p><a href={URLS.WORKSHOP_TALAIA2017} rel="noopener noreferrer" target="_blank">Centre excursionista Talaia</a> (November 2017)</p>    
     }   
   },
 
