@@ -1,7 +1,7 @@
 {
   "main.css": "/myprofile-cra/static/css/main.abae90c5.chunk.css",
-  "main.js": "/myprofile-cra/static/js/main.5bf9e75e.chunk.js",
-  "main.js.map": "/myprofile-cra/static/js/main.5bf9e75e.chunk.js.map",
+  "main.js": "/myprofile-cra/static/js/main.2437ef98.chunk.js",
+  "main.js.map": "/myprofile-cra/static/js/main.2437ef98.chunk.js.map",
   "static/css/1.13165121.chunk.css": "/myprofile-cra/static/css/1.13165121.chunk.css",
   "static/js/1.9b3f1a53.chunk.js": "/myprofile-cra/static/js/1.9b3f1a53.chunk.js",
   "static/js/1.9b3f1a53.chunk.js.map": "/myprofile-cra/static/js/1.9b3f1a53.chunk.js.map",
@@ -87,9 +87,9 @@
   "static/media/ulldeltemps_small.jpg": "/myprofile-cra/static/media/ulldeltemps_small.d0bdf5cc.jpg",
   "static/media/ulldeltemps_small@2x.jpg": "/myprofile-cra/static/media/ulldeltemps_small@2x.2d697f5b.jpg",
   "static/media/ulldeltemps_small@3x.jpg": "/myprofile-cra/static/media/ulldeltemps_small@3x.3549107a.jpg",
-  "static/css/1.13165121.chunk.css.map": "/myprofile-cra/static/css/1.13165121.chunk.css.map",
   "static/css/main.abae90c5.chunk.css.map": "/myprofile-cra/static/css/main.abae90c5.chunk.css.map",
+  "static/css/1.13165121.chunk.css.map": "/myprofile-cra/static/css/1.13165121.chunk.css.map",
   "index.html": "/myprofile-cra/index.html",
-  "precache-manifest.56d9dd12fd5039cf5756ed366b91c8ce.js": "/myprofile-cra/precache-manifest.56d9dd12fd5039cf5756ed366b91c8ce.js",
+  "precache-manifest.51d160dce0444d00b15d4f333a00c601.js": "/myprofile-cra/precache-manifest.51d160dce0444d00b15d4f333a00c601.js",
   "service-worker.js": "/myprofile-cra/service-worker.js"
 }

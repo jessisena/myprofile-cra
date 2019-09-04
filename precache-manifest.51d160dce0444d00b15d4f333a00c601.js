@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/instamaps_small.4f6c7783.jpg"
   },
   {
-    "revision": "5bf9e75efa01ffff77e6",
+    "revision": "2437ef9806ce99aa3725",
     "url": "/myprofile-cra/static/css/main.abae90c5.chunk.css"
   },
   {
@@ -100,12 +100,12 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/open-sans-latin-800italic.79b58175.woff"
   },
   {
-    "revision": "4e6f1e88254a1865c135db3feff6b399",
-    "url": "/myprofile-cra/static/media/open-sans-condensed-latin-300italic.4e6f1e88.woff2"
-  },
-  {
     "revision": "108f1f23ad45de8aeea5849592c8b685",
     "url": "/myprofile-cra/static/media/open-sans-condensed-latin-300.108f1f23.woff2"
+  },
+  {
+    "revision": "4e6f1e88254a1865c135db3feff6b399",
+    "url": "/myprofile-cra/static/media/open-sans-condensed-latin-300italic.4e6f1e88.woff2"
   },
   {
     "revision": "2b5cb36ed50460769e80bf82759c0965",
@@ -164,12 +164,12 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/myprofile-cra/static/media/brand-icons.c5ebe0b3.ttf"
-  },
-  {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/myprofile-cra/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/myprofile-cra/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "b551b554a67e86a840bc80cbb8066c30",
@@ -248,8 +248,8 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/media/instamaps_medium@2x.7701eeb6.jpg"
   },
   {
-    "revision": "5bf9e75efa01ffff77e6",
-    "url": "/myprofile-cra/static/js/main.5bf9e75e.chunk.js"
+    "revision": "2437ef9806ce99aa3725",
+    "url": "/myprofile-cra/static/js/main.2437ef98.chunk.js"
   },
   {
     "revision": "a63dd8f9cdf6902d593c5e7caf575a63",
@@ -496,7 +496,7 @@ self.__precacheManifest = [
     "url": "/myprofile-cra/static/css/1.13165121.chunk.css"
   },
   {
-    "revision": "ce4bbbc09e597da4117061c3a2108e52",
+    "revision": "026a3a8621172ba1db19e45e94580787",
     "url": "/myprofile-cra/index.html"
   }
 ];
